@@ -1,0 +1,21 @@
+a.post-thumb span.post-thumb-hover{
+	background:transparent;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/post-img-overlay.png', sizingMethod='scale');
+}
+.widget-title{
+	background:url(../images/divider-grid.gif);
+	font:16px 'PT Sans Narrow', sans-serif;
+	text-transform:uppercase;
+	color:#4e5157;
+	display:block;
+	height:11px;
+	line-height:11px;
+	padding:0px;
+	margin-bottom:10px;
+}
+.widget-title span{
+	background-color:#FFF;
+	padding-right:5px;
+}
+
+#bg{display:block}
