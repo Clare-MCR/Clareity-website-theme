@@ -39,6 +39,7 @@ wegraphics_noindex();
 
    
 <!--[if !IE]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script type='text/javascript' src="<?php echo get_bloginfo('template_url'); ?>/js/jquery.defaultvalue.js"></script>
 <script type='text/javascript'>
 	$('document').ready(function() {
@@ -62,7 +63,7 @@ wegraphics_noindex();
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=349625931807665";
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=1515806498684280";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <?php if (get_option('wgcp_enable_banner_468')=='enable_468') { ?>
